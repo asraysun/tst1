@@ -60,7 +60,7 @@
                 <version>0.4.4</version>
                 <configuration>
                     <jdkVersion>1.8</jdkVersion>
-                    <appName>arctic-loon-05685</appName>
+                    <appName>hydro-toque-85833</appName>
                     <processTypes>
                         <!-- Tell Heroku how to launch your application -->
                         <web>web: java -cp target/classes/;target/dependency/* Main</web>
