@@ -63,7 +63,7 @@
                     <appName>arctic-loon-05685</appName>
                     <processTypes>
                         <!-- Tell Heroku how to launch your application -->
-                        <web>java -jar ./target/tetsHeroku-1.0-SNAPSHOT.jar</web>
+                        <web>web: java -cp target/classes/;target/dependency/* github.asraysun.Main</web>
                     </processTypes>
                 </configuration>
             </plugin>

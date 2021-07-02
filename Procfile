@@ -1,1 +1,1 @@
-web: java -jar target/tetsHeroku-1.0-SNAPSHOT.jar -cp target/classes:target/dependency/* github.asraysun.Main
+web: java -cp target/classes/;target/dependency/* github.asraysun.Main
